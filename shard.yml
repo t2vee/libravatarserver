@@ -1,0 +1,27 @@
+name: identileaves
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  identileaves:
+    main: src/identileaves.cr
+
+dependencies:
+  onyx:
+    github: onyxframework/onyx
+    version: ~> 0.3.0
+  onyx-http:
+    github: onyxframework/http
+    version: ~> 0.7.0
+  carbon:
+    github: luckyframework/carbon
+  dotenv:
+    github: gdotdesign/cr-dotenv
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+crystal: 1.5.0
+
+license: MIT
