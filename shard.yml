@@ -2,28 +2,21 @@ name: identileaves
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - t2v me@t2v.ch
 
 targets:
   identileaves:
-    main: src/identileaves.cr
+    main: src/bin/server.cr
 
 dependencies:
-  onyx:
-    github: onyxframework/onyx
-    version: ~> 0.3.0
-  onyx-http:
-    github: onyxframework/http
-    version: ~> 0.7.0
-  carbon:
-    github: luckyframework/carbon
+  kemal:
+    github: kemalcr/kemal
   dotenv:
     github: gdotdesign/cr-dotenv
   sqlite3:
     github: crystal-lang/crystal-sqlite3
-  ameba:
-    github: crystal-ameba/ameba
-    version: ~> 1.0.0
+  carbon:
+    github: luckyframework/carbon
   carbon_smtp_adapter:
     github: oneiros/carbon_smtp_adapter
 
