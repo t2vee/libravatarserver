@@ -11,14 +11,16 @@ targets:
 dependencies:
   kemal:
     github: kemalcr/kemal
-  dotenv:
-    github: gdotdesign/cr-dotenv
+  lucky_env:
+    github: luckyframework/lucky_env
   sqlite3:
     github: crystal-lang/crystal-sqlite3
   carbon:
     github: luckyframework/carbon
   carbon_smtp_adapter:
     github: oneiros/carbon_smtp_adapter
+  carbon_sendgrid_adapter:
+    github: luckyframework/carbon_sendgrid_adapter
 
 crystal: 1.5.0
 
