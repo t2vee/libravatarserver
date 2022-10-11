@@ -1,5 +1,9 @@
 version: 2.0
 shards:
+  any_hash:
+    git: https://github.com/sija/any_hash.cr.git
+    version: 0.2.5
+
   backtracer:
     git: https://github.com/sija/backtracer.cr.git
     version: 1.2.2
@@ -20,10 +24,6 @@ shards:
     git: https://github.com/crystal-lang/crystal-db.git
     version: 0.11.0
 
-  dotenv:
-    git: https://github.com/gdotdesign/cr-dotenv.git
-    version: 1.0.0
-
   email:
     git: https://github.com/arcage/crystal-email.git
     version: 0.6.4
@@ -40,6 +40,14 @@ shards:
     git: https://github.com/kemalcr/kemal.git
     version: 1.2.0
 
+  kemal-form:
+    git: https://github.com/henrikac/kemal-form.git
+    version: 0.4.1
+
+  lucky_env:
+    git: https://github.com/luckyframework/lucky_env.git
+    version: 0.1.4
+
   lucky_task:
     git: https://github.com/luckyframework/lucky_task.git
     version: 0.1.1
@@ -47,6 +55,10 @@ shards:
   radix:
     git: https://github.com/luislavena/radix.git
     version: 0.4.1
+
+  raven:
+    git: https://github.com/sija/raven.cr.git
+    version: 1.9.2
 
   sqlite3:
     git: https://github.com/crystal-lang/crystal-sqlite3.git

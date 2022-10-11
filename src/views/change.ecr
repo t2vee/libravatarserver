@@ -1,0 +1,28 @@
+  <body>
+    <h1>Enter Email</h1>
+    <% if !form.errors.empty? %>
+      <ul>
+        <% form.errors.each do |error| %>
+          <li><%= error %></li>
+        <% end %>
+      </ul>
+    <% end %>
+    <form method="POST" action="/api/change_avatar/stage/1/send_email">
+      <% form.fields.each do |field| %>
+        <div>
+          <%= field.label %>
+          <%= field %>
+          <% if !field.errors.empty? %>
+            <ul>
+              <% field.errors.each do |error| %>
+                <li><%= error %></li>
+              <% end %>
+            </ul>
+          <% end %>
+        </div>
+      <% end %>
+      <% form.buttons.each do |button| %>
+        <%= button %>
+      <% end %>
+    </form>
+  </body>

@@ -4,7 +4,7 @@ abstract class ApplicationMailer < Carbon::Email
   from Carbon::Address.new(ENV["SMTP_SENDER_NAME"], ENV["SMTP_FROM_ADDRESS"])
   to email_address
   subject email_subject
-  settings.adapter = MAILER_ADAPTER
+  settings.adapter = Carbon::SmtpAdapter.new #MAILER_ADAPTER
 
   def initialize
     @email_address = ""
