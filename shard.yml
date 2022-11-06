@@ -1,0 +1,26 @@
+name: identileaves
+version: 0.1.0
+
+authors:
+  - t2v <me+gitea@t2v.ch>
+
+targets:
+  identileaves:
+    main: src/identileaves.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  email:
+    github: arcage/crystal-email
+  dotenv:
+    github: gdotdesign/cr-dotenv
+  raven:
+    github: Sija/raven.cr
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+
+crystal: 1.6.1
+
+license: MIT
