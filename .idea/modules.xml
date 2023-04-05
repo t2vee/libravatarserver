@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/identileaves.iml" filepath="$PROJECT_DIR$/.idea/identileaves.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/identileaves-python.iml" filepath="$PROJECT_DIR$/.idea/identileaves-python.iml" />
     </modules>
   </component>
 </project>
